@@ -8,7 +8,8 @@ hf_model_raw/
 ct2_model/
 finetuned_model/*.bin
 finetuned_model/*.pt
-
+hf_dataset - Copy/
+*.arrow
 # HuggingFace dataset (audio ehtiva edir)
 hf_dataset/
 
