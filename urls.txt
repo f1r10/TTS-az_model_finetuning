@@ -1,0 +1,6 @@
+# Hər sətirdə bir YouTube linki yaz.
+# "#" ilə başlayan sətirlər nəzərə alınmır.
+#
+# Nümunə:
+# https://www.youtube.com/watch?v=XXXXXXXXXXX
+# https://www.youtube.com/watch?v=YYYYYYYYYYY

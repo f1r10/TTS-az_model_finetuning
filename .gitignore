@@ -1,0 +1,28 @@
+# Audio data (böyük fayllar, GitHub-a yükləmə)
+raw_audio/*.wav
+normalized/*.wav
+segments/*.wav
+
+# Modellər (çox böyükdür, GitHub limitini keçir)
+hf_model_raw/
+ct2_model/
+finetuned_model/*.bin
+finetuned_model/*.pt
+
+# HuggingFace dataset (audio ehtiva edir)
+hf_dataset/
+
+# Transkript nəticələri (istəsən saxla, istəsən çıxar)
+metadata_auto.csv
+metadata_template.csv
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.Python
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

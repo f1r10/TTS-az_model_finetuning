@@ -1,0 +1,11 @@
+yt-dlp
+pydub
+pandas
+librosa
+soundfile
+datasets
+huggingface_hub
+transformers
+torch
+ctranslate2
+faster-whisper
