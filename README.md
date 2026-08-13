@@ -11,19 +11,6 @@ ediləcək — [`ylacombe/finetune-hf-vits`](https://github.com/ylacombe/finetun
 alətindən istifadə etməklə.
 
 ---
-
-## ⚠️ Vacib qeydlər (əvvəlcə oxu)
-
-- **Hüquqi məsələ:** YouTube-dan video/audio endirmək onların İstifadə
-  Şərtlərinə zidd ola bilər. Bu materialdan yalnız şəxsi, qeyri-kommersiya
-  məqsədli tədqiqat/təcrübə üçün istifadə et.
-- **Razılıq məsələsi:** Əgər tanınan, real bir şəxsin səsini klonlayırsansa,
-  bunu nəşr etmək və ya ictimailəşdirmək niyyətindəsənsə, əvvəlcə həmin
-  şəxsin (və ya hüquqi varislərinin) razılığını almağı düşün.
-- Bu pipeline sənin öz kompüterində (lokal) işləmək üçün nəzərdə tutulub.
-  Fine-tuning mərhələsi üçün isə GPU lazımdır (Google Colab pulsuz T4
-  kifayət edir).
-
 ---
 
 ## Qovluq strukturu
