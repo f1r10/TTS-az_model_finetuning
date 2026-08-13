@@ -144,25 +144,12 @@ python scripts/6_build_dataset.py
 ---
 
 ## Fine-Tuning (Google Colab-da, GPU lazımdır)
-
+### oxu http://github.com/f1r10/TTS-az_model_finetuning/blob/main/README_colab_finetuning_parametrs.md 
+###  colabda işə sal  https://github.com/f1r10/TTS-az_model_finetuning/blob/main/AZJ_VITS_Finetune.ipynb 
 `hf_dataset/` qovluğunu Google Drive-a yüklə (və ya Colab-a birbaşa
 kopyala), sonra Colab-da:
 
-```python
-!git clone https://github.com/ylacombe/finetune-hf-vits.git
-%cd finetune-hf-vits
-!pip install -r requirements.txt
-!pip install accelerate datasets
 
-!python finetune_mms.py \
-  --model_name_or_path facebook/mms-tts-azj-script_latin \
-  --dataset_name /content/drive/MyDrive/hf_dataset \
-  --output_dir /content/az-voice-finetuned \
-  --num_train_epochs 200 \
-  --per_device_train_batch_size 16 \
-  --learning_rate 2e-5 \
-  --fp16
-```
 
 > Dəqiq flaqlar repo versiyasına görə dəyişə bilər — işə salmadan əvvəl
 > [repo-nun README-sini](https://github.com/ylacombe/finetune-hf-vits)
